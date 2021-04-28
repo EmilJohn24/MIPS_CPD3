@@ -28,10 +28,10 @@ begin
    sign_or_zero <= '1';
  else 
  case opcode is
-  when "000" => -- add
+  when "00000" => -- add
     reg_dst <= "01";
     mem_to_reg <= "00";
-    alu_op <= "00";
+    alu_op <= "10";
     jump <= '0';
     branch <= '0';
     mem_read <= '0';
