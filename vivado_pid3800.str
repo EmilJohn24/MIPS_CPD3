@@ -1,0 +1,109 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 3800
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Apr 28 16:50:58 SGT 2021
+Time zone: 	Singapore Standard Time (Asia/Singapore)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/Programs/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	D:/Programs/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Emil John Lopez
+User home directory: C:/Users/Emil John Lopez
+User working directory: C:/Users/Emil John Lopez/New/MIPS_CPD3
+User country: 	PH
+User language: 	en
+User locale: 	en_PH
+
+RDI_BASEROOT: D:/Programs/Xilinx/Vivado
+HDI_APPROOT: D:/Programs/Xilinx/Vivado/2020.2
+RDI_DATADIR: D:/Programs/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: D:/Programs/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/Emil John Lopez/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/Emil John Lopez/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/Emil John Lopez/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	D:/Programs/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Emil John Lopez/New/MIPS_CPD3/vivado.log
+Vivado journal file location: 	C:/Users/Emil John Lopez/New/MIPS_CPD3/vivado.jou
+Engine tmp dir: 	C:/Users/Emil John Lopez/New/MIPS_CPD3/.Xil/Vivado-3800-LAPTOP-H8A69KUR
+
+Xilinx Environment Variables
+----------------------------
+NO_XILINX_DATA_LICENSE: HIDDEN
+XILINX: D:/Programs/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: D:/Programs/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: D:/Programs/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: D:/Programs/Xilinx/Vivado/2020.2
+XILINX_VIVADO: D:/Programs/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: D:/Programs/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	129 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,012 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  1058 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Emil John Lopez\New\MIPS_CPD3\MIPS_CPD3.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/Emil John Lopez/New/MIPS_CPD3/MIPS_CPD3.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 53 MB. Current time: 4/28/21, 4:50:59 PM SGT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/Emil John Lopez/New/MIPS_CPD3/MIPS_CPD3.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Emil John Lopez/MIPS_CPD3' since last save. 
+// Tcl Message: INFO: [filemgmt 56-1] IPUserFilesDir: Directory not found as 'C:/Users/Emil John Lopez/New/MIPS_CPD3/MIPS_CPD3.ip_user_files'; using path 'C:/Users/Emil John Lopez/MIPS_CPD3/MIPS_CPD3.ip_user_files' instead. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 63 MB (+63352kb) [00:00:24]
+// [Engine Memory]: 1,012 MB (+909285kb) [00:00:24]
+// [GUI Memory]: 81 MB (+15556kb) [00:00:25]
+// [GUI Memory]: 104 MB (+20382kb) [00:00:26]
+// WARNING: HEventQueue.dispatchEvent() is taking  8467 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Xilinx/Vivado/2020.2/data/ip'. 

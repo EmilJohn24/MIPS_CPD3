@@ -25,7 +25,7 @@ architecture Behavioral of MIPS_VHDL is
  signal ALU_Control: std_logic_vector(5 downto 0);
  signal ALU_out: std_logic_vector(31 downto 0);
  signal zero_flag: std_logic;
- signal im_shift_1, PC_j, PC_beq, PC_4beq,PC_4beqj,PC_jr: std_logic_vector(31 downto 0);
+ signal im_shift_1, PC_j, PC_beq, PC_bne, PC_4beq,PC_4beqj,PC_jr: std_logic_vector(31 downto 0);
  signal beq_control: std_logic;
  signal jump_shift_1: std_logic_vector(27 downto 0);
  signal mem_read_data: std_logic_vector(31 downto 0);
@@ -119,10 +119,14 @@ alu: entity work.ALU_VHDL port map
  no_sign_ext <= (not im_shift_1) + x"0001";
 -- PC beq add
  PC_beq <= (pc2 - no_sign_ext) when im_shift_1(31) = '1' else (pc2 +im_shift_1);
+ PC_bne <= PC_beq;
 -- beq control
-   beq_control <= branch and zero_flag;
+   beq_control <= branch;
 -- PC_beq
-   PC_4beq <= PC_beq when beq_control='1' else pc2;
+   PC_4beq <= PC_beq when beq_control = '1' and ((zero_flag = '1' and instr(31 downto 26) = "000100") or (zero_flag = '0' and instr(31 downto 26) = "000101")) 
+                 else pc2;
+   
+              
 -- PC_j
  PC_j <= pc2(31 downto 28) & jump_shift_1;
 -- PC_4beqj

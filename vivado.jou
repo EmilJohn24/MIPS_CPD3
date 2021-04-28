@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 28 16:50:26 2021
+# Process ID: 16160
+# Current directory: C:/Users/Emil John Lopez/New/MIPS_CPD3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8700 C:\Users\Emil John Lopez\New\MIPS_CPD3\MIPS_CPD3.xpr
+# Log file: C:/Users/Emil John Lopez/New/MIPS_CPD3/vivado.log
+# Journal file: C:/Users/Emil John Lopez/New/MIPS_CPD3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Emil John Lopez/New/MIPS_CPD3/MIPS_CPD3.xpr}
+update_compile_order -fileset sources_1
