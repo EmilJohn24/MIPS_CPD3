@@ -107,3 +107,379 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // [GUI Memory]: 104 MB (+20382kb) [00:00:26]
 // WARNING: HEventQueue.dispatchEvent() is taking  8467 ms.
 // Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Xilinx/Vivado/2020.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:13 . Memory (MB): peak = 1004.332 ; gain = 0.000 
+// Project name: MIPS_CPD3; location: C:/Users/Emil John Lopez/New/MIPS_CPD3; part: xc7k70tfbv676-1
+dismissDialog("Open Project"); // bz
+// WARNING: HEventQueue.dispatchEvent() is taking  1018 ms.
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1109ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1115 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 128 MB (+18855kb) [00:01:08]
+// Elapsed time: 36 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_MIPS_VHDL(behavior) (tb_MIPS_VHDL.vhd)]", 4); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_MIPS_VHDL(behavior) (tb_MIPS_VHDL.vhd), uut : MIPS_VHDL(Behavioral) (MIPS_VHDL.vhd)]", 5); // D
+// PAPropertyPanels.initPanels (Data_Memory_VHDL.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_MIPS_VHDL(behavior) (tb_MIPS_VHDL.vhd), uut : MIPS_VHDL(Behavioral) (MIPS_VHDL.vhd), data_memory : Data_Memory_VHDL(Behavioral) (Data_Memory_VHDL.vhd)]", 11, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_MIPS_VHDL(behavior) (tb_MIPS_VHDL.vhd), uut : MIPS_VHDL(Behavioral) (MIPS_VHDL.vhd), data_memory : Data_Memory_VHDL(Behavioral) (Data_Memory_VHDL.vhd)]", 11, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_MIPS_VHDL(behavior) (tb_MIPS_VHDL.vhd), uut : MIPS_VHDL(Behavioral) (MIPS_VHDL.vhd), alu : ALU_VHDL(Behavioral) (ALU_VHDL.vhd)]", 10, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_MIPS_VHDL(behavior) (tb_MIPS_VHDL.vhd), uut : MIPS_VHDL(Behavioral) (MIPS_VHDL.vhd), alu : ALU_VHDL(Behavioral) (ALU_VHDL.vhd)]", 10, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_MIPS_VHDL(behavior) (tb_MIPS_VHDL.vhd), uut : MIPS_VHDL(Behavioral) (MIPS_VHDL.vhd), control : control_unit_VHDL(Behavioral) (control_unit_VHDL.vhd)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_MIPS_VHDL(behavior) (tb_MIPS_VHDL.vhd), uut : MIPS_VHDL(Behavioral) (MIPS_VHDL.vhd), control : control_unit_VHDL(Behavioral) (control_unit_VHDL.vhd)]", 7, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_MIPS_VHDL(behavior) (tb_MIPS_VHDL.vhd), uut : MIPS_VHDL(Behavioral) (MIPS_VHDL.vhd), Instruction_Memory : Instruction_Memory_VHDL(Behavioral) (Instruction_Memory_VHDL.vhd)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_MIPS_VHDL(behavior) (tb_MIPS_VHDL.vhd), uut : MIPS_VHDL(Behavioral) (MIPS_VHDL.vhd), Instruction_Memory : Instruction_Memory_VHDL(Behavioral) (Instruction_Memory_VHDL.vhd)]", 6, false, false, false, false, false, true); // D - Double Click
+// [GUI Memory]: 135 MB (+1208kb) [00:01:27]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_MIPS_VHDL(behavior) (tb_MIPS_VHDL.vhd), uut : MIPS_VHDL(Behavioral) (MIPS_VHDL.vhd), control : control_unit_VHDL(Behavioral) (control_unit_VHDL.vhd)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_MIPS_VHDL(behavior) (tb_MIPS_VHDL.vhd), uut : MIPS_VHDL(Behavioral) (MIPS_VHDL.vhd), control : control_unit_VHDL(Behavioral) (control_unit_VHDL.vhd)]", 7, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("control_unit_VHDL.vhd", 232, 111); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 236, 160); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 282, 228); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 180, 62); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 180, 62, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("control_unit_VHDL.vhd", 222, 146); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 222, 146, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 161, 153); // bP
+// WARNING: HEventQueue.dispatchEvent() is taking  1629 ms.
+// Elapsed time: 12 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 132, 144); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 82 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 182, 112); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 131, 201); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 114, 207); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 130, 235); // bP
+// Elapsed time: 18 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 255, 230); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 222, 260); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 220, 263); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 200, 296); // bP
+// Elapsed time: 50 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 179, 266); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 211, 231); // bP
+// Elapsed time: 20 seconds
+typeControlKey((HResource) null, "control_unit_VHDL.vhd", 'c'); // bP
+// WARNING: HEventQueue.dispatchEvent() is taking  1785 ms.
+selectCodeEditor("control_unit_VHDL.vhd", 320, 312); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 277, 320); // bP
+typeControlKey((HResource) null, "control_unit_VHDL.vhd", 'v'); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 113, 244); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 188, 201); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 188, 201, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("control_unit_VHDL.vhd", 188, 201); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 188, 201, false, false, false, false, true); // bP - Double Click
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 113 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_MIPS_VHDL(behavior) (tb_MIPS_VHDL.vhd), uut : MIPS_VHDL(Behavioral) (MIPS_VHDL.vhd)]", 5, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_MIPS_VHDL(behavior) (tb_MIPS_VHDL.vhd), uut : MIPS_VHDL(Behavioral) (MIPS_VHDL.vhd)]", 5, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 14 seconds
+selectCodeEditor("MIPS_VHDL.vhd", 41, 209); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 41, 209, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("MIPS_VHDL.vhd", 316, 167); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 302, 213); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 302, 213, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("MIPS_VHDL.vhd", 310, 211); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 312, 205); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 312, 205, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("MIPS_VHDL.vhd", 503, 216); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 495, 244); // bP
+// Elapsed time: 49 seconds
+selectCodeEditor("MIPS_VHDL.vhd", 271, 217); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 284, 170); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 310, 160); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 391, 157); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 281, 128); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 281, 128, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("MIPS_VHDL.vhd", 282, 127); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 306, 106); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 307, 106, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("MIPS_VHDL.vhd", 263, 174); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 264, 172); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 267, 169); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 273, 166); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 297, 107); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 297, 107, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("MIPS_VHDL.vhd", 297, 107); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 297, 107, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("MIPS_VHDL.vhd", 206, 130); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 206, 130, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("MIPS_VHDL.vhd", 206, 125); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 206, 125, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 42 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU_VHDL.vhd", 2); // m
+// [GUI Memory]: 142 MB (+560kb) [00:10:09]
+// Elapsed time: 17 seconds
+selectCodeEditor("ALU_VHDL.vhd", 93, 153); // bP
+selectCodeEditor("ALU_VHDL.vhd", 93, 153, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 278 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPS_VHDL.vhd", 5); // m
+selectCodeEditor("MIPS_VHDL.vhd", 624, 191); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("MIPS_VHDL.vhd", 627, 189); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 627, 189); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 637, 172); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 637, 172); // bP
+// Elapsed time: 245 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Data_Memory_VHDL.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU_VHDL.vhd", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_unit_VHDL.vhd", 3); // m
+// Elapsed time: 17 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 311, 186, false, false, false, true, false); // bP - Popup Trigger
+// WARNING: HEventQueue.dispatchEvent() is taking  1715 ms.
+selectCodeEditor("control_unit_VHDL.vhd", 130, 181); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 156, 219); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 203, 205); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 215, 169); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 228, 153); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 228, 151); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 186, 242); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 190, 297); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 192, 237); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 205, 204); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 200, 233); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 202, 233, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("control_unit_VHDL.vhd", 212, 213); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU_VHDL.vhd", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Memory_VHDL.vhd", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPS_VHDL.vhd", 5); // m
+selectCodeEditor("MIPS_VHDL.vhd", 554, 95); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 508, 148); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 607, 187); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 308, 267); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 78 MB. Current time: 4/28/21, 5:20:59 PM SGT
+// Elapsed time: 689 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Memory_VHDL.vhd", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPS_VHDL.vhd", 5); // m
+// Elapsed time: 14 seconds
+selectCodeEditor("MIPS_VHDL.vhd", 749, 90); // bP
+// Elapsed time: 46 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// WARNING: HEventQueue.dispatchEvent() is taking  1665 ms.
+// Elapsed time: 323 seconds
+selectCodeEditor("MIPS_VHDL.vhd", 251, 270); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 231, 294); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 236, 291); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 236, 291, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("MIPS_VHDL.vhd", 236, 291); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 237, 290); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 170, 264); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 170, 264, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("MIPS_VHDL.vhd", 170, 264); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 170, 264, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("MIPS_VHDL.vhd", 170, 264); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 387, 269); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 387, 269, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("MIPS_VHDL.vhd", 387, 269); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 389, 267); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("MIPS_VHDL.vhd", 481, 261); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("MIPS_VHDL.vhd", 494, 265); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 458, 271); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 458, 271, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("MIPS_VHDL.vhd", 458, 271); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 458, 271); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 458, 271, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("MIPS_VHDL.vhd", 458, 271); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 485, 267); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 485, 267, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("MIPS_VHDL.vhd", 729, 252); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 851, 264); // bP
+// WARNING: HEventQueue.dispatchEvent() is taking  1634 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1273 ms.
+// Elapsed time: 33 seconds
+selectCodeEditor("MIPS_VHDL.vhd", 174, 174); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("MIPS_VHDL.vhd", 271, 224); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 271, 224, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("MIPS_VHDL.vhd", 738, 282); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 710, 273); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 486, 259); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 54 seconds
+selectCodeEditor("MIPS_VHDL.vhd", 325, 263); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 325, 263, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("MIPS_VHDL.vhd", 325, 263); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 325, 263); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 325, 263, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("MIPS_VHDL.vhd", 344, 289); // bP
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Instruction_Memory_VHDL.vhd", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_unit_VHDL.vhd", 3); // m
+selectCodeEditor("control_unit_VHDL.vhd", 113, 107); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 403, 275); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 290, 310); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 37 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 391, 243); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 275, 187); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 202, 293); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 66, 296); // bP
+// Elapsed time: 45 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 234, 261); // bP
+typeControlKey((HResource) null, "control_unit_VHDL.vhd", 'c'); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 107, 301); // bP
+typeControlKey((HResource) null, "control_unit_VHDL.vhd", 'v'); // bP
+// Elapsed time: 15 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 232, 167); // bP
+// Elapsed time: 48 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 139, 264); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1695 ms.
+// Elapsed time: 498 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 183, 151); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 183, 151, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 27 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 81, 61); // bP
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Data_Memory_VHDL.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPS_VHDL.vhd", 5); // m
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("MIPS_VHDL.vhd", 841, 269); // bP
+selectCodeEditor("MIPS_VHDL.vhd", 1340, 266); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_unit_VHDL.vhd", 3); // m
+selectCodeEditor("control_unit_VHDL.vhd", 90, 93); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 90, 93, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 227, 225); // bP
+// Elapsed time: 52 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 213, 91); // bP
+// Elapsed time: 73 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 92, 266); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 237, 317); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 269, 295); // bP
+// Elapsed time: 46 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 227, 270); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 224, 324); // bP
+typeControlKey((HResource) null, "control_unit_VHDL.vhd", 'c'); // bP
+// Elapsed time: 33 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 181, 315); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 232, 333); // bP
+typeControlKey((HResource) null, "control_unit_VHDL.vhd", 'v'); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 102, 130); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 102, 130, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("control_unit_VHDL.vhd", 205, 142); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 205, 142, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 39 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 216, 120); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 196, 231); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 70 MB. Current time: 4/28/21, 5:51:00 PM SGT
+// Elapsed time: 57 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 145, 145); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 145, 145, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 22 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 230, 83); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 230, 83, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 251, 270); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 245, 267); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 239, 227); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 188, 227); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 187, 226); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 31 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 205, 279); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 94, 157); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Data_Memory_VHDL.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU_VHDL.vhd", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "control_unit_VHDL.vhd", 3); // m
+selectCodeEditor("control_unit_VHDL.vhd", 17, 100); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 217, 207); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 217, 207); // bP
+typeControlKey((HResource) null, "control_unit_VHDL.vhd", 'c'); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 236, 269); // bP
+typeControlKey((HResource) null, "control_unit_VHDL.vhd", 'v'); // bP
+typeControlKey((HResource) null, "control_unit_VHDL.vhd", 'v'); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 204, 87); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 204, 87, false, false, false, false, true); // bP - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("control_unit_VHDL.vhd", 105, 98); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 105, 98, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 22 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 150, 169); // bP
+// Elapsed time: 45 seconds
+selectCodeEditor("control_unit_VHDL.vhd", 240, 320); // bP
+selectCodeEditor("control_unit_VHDL.vhd", 241, 312); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1672 ms.

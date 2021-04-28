@@ -27,9 +27,9 @@ begin
   result <= a - b; -- sub
  when "0111" =>
   if (a<b) then
-   result <= x"0001";
+   result <= x"00000001";
    else 
-   result <= x"0000";
+   result <= x"00000000";
   end if;
  when "1100" =>
     result <= a nor b; --nor

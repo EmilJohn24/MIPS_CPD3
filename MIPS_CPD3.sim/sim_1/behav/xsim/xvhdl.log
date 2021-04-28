@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Emil John Lopez/New/MIPS_CPD3/MIPS_CPD3.srcs/sources_1/imports/MIPS/Instruction_Memory_VHDL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Instruction_Memory_VHDL'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Emil John Lopez/New/MIPS_CPD3/MIPS_CPD3.srcs/sources_1/imports/MIPS/MIPS_VHDL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MIPS_VHDL'

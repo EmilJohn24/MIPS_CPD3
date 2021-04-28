@@ -14,12 +14,12 @@ end Data_Memory_VHDL;
 
 architecture Behavioral of Data_Memory_VHDL is
 signal i: integer;
-signal ram_addr: std_logic_vector(7 downto 0);
-type data_mem is array (0 to ((2**30)-1)) of std_logic_vector (31 downto 0);
-signal RAM: data_mem :=((others=> (others=>'0')));
+signal ram_addr: std_logic_vector(31 downto 0);
+type data_mem is array (0 to 127) of std_logic_vector (31 downto 0);
+signal RAM: data_mem :=((others=> x"00000000"));
 begin
 
- ram_addr <= mem_access_addr(31 downto 2);
+ ram_addr <= "00" & mem_access_addr(31 downto 2);
  process(clk)
  begin
   if(rising_edge(clk)) then

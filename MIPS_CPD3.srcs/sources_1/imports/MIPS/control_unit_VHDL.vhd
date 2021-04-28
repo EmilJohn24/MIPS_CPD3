@@ -3,7 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 -- VHDL code for Control Unit of the MIPS Processor
 entity control_unit_VHDL is
 port (
-  opcode: in std_logic_vector(2 downto 0);
+  opcode: in std_logic_vector(5 downto 0);
   reset: in std_logic;
   reg_dst,mem_to_reg,alu_op: out std_logic_vector(1 downto 0);
   jump,branch,mem_read,mem_write,alu_src,reg_write,sign_or_zero: out std_logic
@@ -28,7 +28,7 @@ begin
    sign_or_zero <= '1';
  else 
  case opcode is
-  when "00000" => -- add
+  when "000000" => -- R-type
     reg_dst <= "01";
     mem_to_reg <= "00";
     alu_op <= "10";
@@ -84,7 +84,7 @@ begin
    reg_write <= '0';
    sign_or_zero <= '1';
   when "001000" => --addi
-    reg_dst <= "01";
+    reg_dst <= "00";
    mem_to_reg <= "00";
    alu_op <= "11";
    jump <= '0';

@@ -22,7 +22,7 @@ architecture Behavioral of MIPS_VHDL is
  signal reg_read_data_2: std_logic_vector(31 downto 0);
  signal sign_ext_im,read_data2,zero_ext_im,imm_ext: std_logic_vector(31 downto 0);
  signal JRControl: std_logic;
- signal ALU_Control: std_logic_vector(5 downto 0);
+ signal ALU_Control: std_logic_vector(3 downto 0);
  signal ALU_out: std_logic_vector(31 downto 0);
  signal zero_flag: std_logic;
  signal im_shift_1, PC_j, PC_beq, PC_bne, PC_4beq,PC_4beqj,PC_jr: std_logic_vector(31 downto 0);
